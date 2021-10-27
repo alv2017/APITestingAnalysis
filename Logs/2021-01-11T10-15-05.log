@@ -1,0 +1,12 @@
+Done!
+csv-report-parser installed: attrs==20.3.0,certifi==2020.12.5,chardet==4.0.0,idna==2.10,iniconfig==1.1.1,packaging==20.8,pluggy==0.13.1,prettytable==2.0.0,py==1.10.0,pyparsing==2.4.7,pytest==6.2.1,PyYAML==5.3.1,requests==2.25.1,toml==0.10.2,urllib3==1.26.2,wcwidth==0.2.5
+csv-report-parser run-test-pre: PYTHONHASHSEED='4032609129'
+csv-report-parser run-test: commands[0] | python /home/developer/scripts/csv_report_parser.py http://192.168.1.2 8080 tests/tests_api/ --time-threshold=2.0
+Parsing csv file...
+Processing file: tests/tests_api/benchmark.csv
+Parsing yaml test files for request data...
+
+Sending {"jsonrpc": "2.0", "id": "1", "method": "API.some_method", "params": {"param1": "x", "param2": "y", "sort": "blog", "limit": "21"}} for reference time measurement
+Got response in 0.6832s
+Sending {"jsonrpc": "2.0", "id": "1", "method": "API2.some_method1", "params": {"param1": "z", "param2": "d", "sort": "blog", "limit": "21"}} for reference time measurement
+Got response in 0.4827s
