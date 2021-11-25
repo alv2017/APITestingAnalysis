@@ -36,7 +36,7 @@ API.some_method) across all benchmarks performed in the last week.
 # Solution
 
 ### Major Issue:
-Missing data: tests execution date in time. This data will be required when computing
+Missing data: tests execution date and time are missing. This data will be required when computing
 tests statistics.
 
 Solution: It was decided to use naming convention for log files.
