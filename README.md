@@ -53,7 +53,7 @@ The path to the log file needs to be provided as a positional argument.
 
 ### Program calculating tests statistics
 
-**get_statistics.py** is a script that one may run from the command line
+**get_statistics.py** is a command line script. It can be run as follows:
 
     python get_statistics.py 2021 1
 
